@@ -106,8 +106,4 @@ Important: Do not download or redistribute YouTube content — the app embeds th
 
 If you'd like to contribute, please open issues or pull requests. To add screenshots to this README, add files to the `screenshot/` folder and commit them.
 
----
 
-## License
-
-This project is for demonstration purposes. Replace with your preferred license if you plan to publish.
