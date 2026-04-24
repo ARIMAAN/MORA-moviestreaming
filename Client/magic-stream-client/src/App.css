@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #0a0e27 0%, #1a1a2e 100%);
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  background: #0a0a0a;
+}
+
+/* Navbar Styling */
+.navbar {
+  background: linear-gradient(90deg, #0d0d0d 0%, #1a1a2e 100%) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 87, 34, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+  color: #ff5722 !important;
+  font-weight: 700;
+  letter-spacing: 3px;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #ff7043 !important;
+  text-shadow: 0 0 10px rgba(255, 87, 34, 0.6);
+}
+
+/* Container Styling */
+.container {
+  max-width: 1400px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 992px) {
+  .row {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+}
+
+/* Button Styling */
+.btn-outline-info {
+  border-color: #00bcd4;
+  color: #00bcd4;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-info:hover {
+  background-color: #00bcd4;
+  color: #000;
+  border-color: #00bcd4;
+}
+
+.btn-info {
+  background-color: #ff5722;
+  border-color: #ff5722;
+  transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #ff7043;
+  border-color: #ff7043;
+  box-shadow: 0 0 15px rgba(255, 87, 34, 0.4);
+}
+
+/* Links */
+a {
+  color: #ff5722;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #ff7043;
+  text-shadow: 0 0 5px rgba(255, 87, 34, 0.4);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff5722;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff7043;
+}
+
+/* Text Colors */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.text-light {
+  color: #e0e0e0 !important;
+}
+
+.text-muted {
+  color: #9e9e9e !important;
+}
+
+/* Fade Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease;
+}

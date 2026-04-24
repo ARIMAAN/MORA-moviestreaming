@@ -1,0 +1,60 @@
+/* MORA Streaming Site - Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  background-color: #0a0a0a;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+  background: radial-gradient(ellipse at top, #1a1a2e 0%, #0a0a0a 100%);
+}
+
+/* Page Background Gradient */
+#root {
+  background: linear-gradient(180deg, #0a0a0a 0%, #0f0f1e 50%, #0a0a0a 100%);
+  min-height: 100vh;
+}
+
+/* Spinner Styling */
+.spinner-border {
+  color: #ff5722 !important;
+}
+
+/* Cards */
+.card {
+  background-color: #1a1a1a !important;
+  border-color: rgba(255, 87, 34, 0.2) !important;
+}
+
+/* Messages */
+h2 {
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Container Padding */
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
