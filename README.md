@@ -36,13 +36,13 @@ Place your screenshot images inside the `screenshot/` folder at the project root
 
 Example gallery (these image files should exist in the `screenshot/` folder):
 
-![Sign In](screenshot/signin.png)
+![Sign In](screenshot/login.png)
 
-![Movies Grid](screenshot/grid.png)
+![Movies Grid](screenshot/home.png)
 
 ![Admin Review](screenshot/review.png)
 
-![Stream Player](screenshot/stream.png)
+![Stream Player](screenshot/playmovie.png)
 
 If you uploaded different image names, either rename them or update the image paths above.
 
